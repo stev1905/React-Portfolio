@@ -402,7 +402,49 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: postgres 2s ease;
    -webkit-animation: postgres 2s ease;
 }
+}
 
+@-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-moz-keyframes redux-saga {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-moz-keyframes graphql {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes nodejs {
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+ }
+ @-moz-keyframes firebase {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
+ @-moz-keyframes mssql {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
+
+ @-moz-keyframes postgres {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
   100% { width: 70%;  }

@@ -17,8 +17,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":
-      "I'm an experienced IT professional striving to transition into a role as a full-stack Developer. Throughout my career, I've had the opportunity to acquire on the job experience with web/app development. Over that time, I've developed a passion and appreciation for growing my skills independently with a focus on FERN stack (Firebase, Express.js, React.js, Node.js). I'm seeking to join a positive and energetic team where I can be a major contributor and continue to grow my skills as a developer.",
+    "aboutme":"I'm a self-taught Full-stack Developer with 8+ years of experience in the field of IT. Throughout my career, I've had the opportunity to acquire on-the-job experience with web development. Over that time, I've developed a passion and appreciation for growing my skills independently. I specialize with JavaScript tech stack, specifically PERN (Postgres, Express.js, React.js, Node.js) or FERN stack (Firebase, Express.js, React.js, Node.js). I'm seeking to join a positive and energetic team where I can contribute and continue to grow as a Full-stack Developer.",
     "address":"Brooklyn, NY",
     "website":"christian.stevens11@outlook.com",
     "education":[
@@ -34,32 +33,31 @@ let resumeData = {
         "CompanyName":"National September 11 Memorial & Museum",
         "specialization":"Enterprise Applications Analyst",
         "MonthOfLeaving":"May 2018 - Present",
-        "Achievements":
-        "Provide escalated technical support for core business applications. Create and design SQL reports upon ADHOC requests for system users. Leverage knowledge in HTML, CSS, and Javascript to customize, configure and maintain ticketing web stores according to Admissions, Operations, and IT requirements. Collaborate with vendors in procuring, maintaining, upgrading, and modifying enterprise applications."
+        "Achievements": "Leverage knowledge in HTML5, CSS3, and Javascript to customize, configure and maintain ticketing web stores according to Admissions, Operations, and IT requirements. Build and deploy custom web pages, email web templates to accomodate key organizational initatives and events. Manage and maintain 10+ web server pertaining to the webstore, email message sender, web order processing, and API integration with CRM application. Utilize SQL to query data and build reports for users upon ADHOC requests. Provide tier two technical support for core business applications."
       },
       {
         "CompanyName":"NFL Experience Time Square",
         "specialization":"IT Operations Manager",
         "MonthOfLeaving":"Aug 2017 - May 2018",
-        "Achievements":"Lead role in the planning, design, installation and support of systems and network infrastructure as it relates to video, audio, broadcast, and video conferencing systems for a brand-new attraction facility. Provided day to day management troubleshooting of all onsite technology and audio/video installations, pertaining to POS systems, indoor/outdoor digital signage, 4D immersive theatre, and interactives, digital platforms and network infrastructure. Developed and managed technical related budgets; technical SOP's for daily operations and resources for events and projects. Established and managed vendor relations relating to preventive maintenance, SLA contracts, tier 2 support for all venue technical infrastructure."
+        "Achievements":"Lead role in the planning, design, installation, and support of systems and network infrastructure as it relates to video, audio, broadcast, and video conferencing systems for a brand-new attraction facility. Established and managed vendor relations relating to preventive maintenance, SLA contracts, tier 2 support for all venue technical infrastructure."
       },
       {
         "CompanyName":"Leopard Solutions",
-        "specialization":"Project Manager - Data Operations",
+        "specialization":"Web Application Analyst",
         "MonthOfLeaving":"Jul 2016 - Aug 2017",
         "Achievements":"Led team in creating and executing test plans to determine optimal application functionality. Worked closely with overseas developers to coordinate tasks and project deliverables. Managed database team and contractors with day-to-day tasks on data acquisition and data analysis for Leopard Solutions application tools."
       },
       {
         "CompanyName":"Macys Merchandising Group",
-        "specialization":"PLM Business Analyst",
+        "specialization":"Web Admin/Tester",
         "MonthOfLeaving":"Dec 2014 - Aug 2016",
-        "Achievements":"Developed test plans and regression scripts based on business user's workflows as it pertained to the PLM application. Collaborated with web development vendor to manage user story requests, bug fixes, and application upgrades for monthly sprint releases. Provided level 2 technical support to application users. "
+        "Achievements":"Developed test plans and regression scripts based on business user's work􀃖ows as it pertained to the PLM application. Collaborated with web development vendors to manage user story requests. bug fixes, and application upgrades for monthly sprint releases. Provided level 2 technical support to application users."
       },
       {
         "CompanyName":"J.McLaughlin",
         "specialization":"IT Support Analyst",
         "MonthOfLeaving":"Jan 2013 - Dec 2014",
-        "Achievements":"Leveraged MS SQL to fetch data and create reports upon ADHOC requests. Contributed to developing webpages for Corporate intranet built with PHP, HTML & MYSQL database. Provided technical support relating to Point-of-Sale and system hardware to the corporate office (100+ users) and retail locations nationwide (90+ stores)."
+        "Achievements":"Created custom SQL reports upon ADHOC requests for business users. Contributed to developing webpages for corporate intranet built with PHP, HTML & MYSQL database. Provided technical support relating to Point-of-Sale and system hardware to the corporate o􀃞ce (100+ users) and retail locations nationwide (+90 stores)"
       }
     ],
     "skillsDescription":"",
