@@ -13,7 +13,7 @@ export default  class Skills extends Component {
                     <div className="nine columns main-col">
 
                     <p>
-                    {resumeData.skillsDescription}
+                        {resumeData.skillsDescription}
                     </p>
 
                         <div className="bars">

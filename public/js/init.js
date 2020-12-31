@@ -21,14 +21,13 @@
 
    $('.smoothscroll').on('click',function (e) {
 	    e.preventDefault();
-
-	    var target = this.hash,
+       var target = this.hash,
 	    $target = $(target);
-
+      console.log(target)
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
-	    }, 800, 'swing', function () {
-	        window.location.hash = target;
+	    }, 700, 'swing', function () {
+           window.location.hash = target;
 	    });
 	});
 
@@ -65,7 +64,7 @@
 /* equal to the browser height.
 ------------------------------------------------------ */
 
-   $('header').css({ 'height': $(window).height() });
+   $('header').css({ 'height': $(window).height() - .9});
    $(window).on('resize', function() {
 
         $('header').css({ 'height': $(window).height() });
@@ -84,7 +83,10 @@
       var nav = $('#nav-wrap');
 
 	   if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
-	      nav.fadeOut('fast');
+         nav.fadeOut('fast');
+         console.log($(window).scrollTop(), 'y')
+         console.log($('header').height()*.20, 'h*.20')
+         console.log($('header').height(), 'h')
 	   }
       else {
          if (y < h*.20) {
