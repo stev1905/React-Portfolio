@@ -82,7 +82,8 @@
 		var y = $(window).scrollTop();
       var nav = $('#nav-wrap');
 
-	   if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
+	   if ( (y > h*.20)
+       && ($(window).outerWidth() > 768 ) ) {
          nav.fadeOut('fast');
          console.log($(window).scrollTop(), 'y')
          console.log($('header').height()*.20, 'h*.20')

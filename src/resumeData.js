@@ -105,6 +105,12 @@ let resumeData = {
         "description":"React.js Frontend, Postgres DB, Express.js Backend",
         "imgurl":"images/portfolio/project12.jpg",
         "projectUrl":"https://smart-brain0620.herokuapp.com/"
+      },
+      {
+        "name":"Covid-19 Tracker",
+        "description":"React.js Frontend (React Hooks), Utilizes Disease.sh API to retreive data",
+        "imgurl":"images/portfolio/project13.jpg",
+        "projectUrl":"https://admiring-gates-0d9dbc.netlify.app/"
       }
     ]
   }
