@@ -20,13 +20,13 @@
 ------------------------------------------------------ */
 
    $('.smoothscroll').on('click',function (e) {
+      console.log('working')
 	    e.preventDefault();
        var target = this.hash,
 	    $target = $(target);
-      console.log(target)
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
-	    }, 700, 'swing', function () {
+	    }, 800, 'swing', function () {
            window.location.hash = target;
 	    });
 	});
@@ -78,28 +78,23 @@
 
    $(window).on('scroll', function() {
 
-		var h = $('header').height();
-		var y = $(window).scrollTop();
-      var nav = $('#nav-wrap');
+   var h = $('header').height();
+   var y = $(window).scrollTop();
+   var nav = $('#nav-wrap');
 
-	   if ( (y > h*.20)
-       && ($(window).outerWidth() > 768 ) ) {
-         nav.fadeOut('fast');
-         console.log($(window).scrollTop(), 'y')
-         console.log($('header').height()*.20, 'h*.20')
-         console.log($('header').height(), 'h')
-	   }
-      else {
-         if (y < h*.20) {
-            nav.removeClass('opaque').fadeIn('fast');
-         }
-         else {
-            nav.addClass('opaque').fadeIn('fast');
-         }
+   if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
+      nav.fadeOut('fast');
+   }
+   else {
+      if (y < h*.20) {
+         nav.removeClass('opaque').fadeIn('fast');
       }
+      else {
+         nav.addClass('opaque').fadeIn('fast');
+      }
+   }
 
-	});
-
+});
 
 /*----------------------------------------------------*/
 /*	Modal Popup
@@ -160,7 +155,7 @@
 	      success: function(msg) {
 
             // Message was sent
-            if (msg == 'OK') {
+            if (msg === 'OK') {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
